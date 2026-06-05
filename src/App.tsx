@@ -39,7 +39,7 @@ export default function App() {
           {error}
         </div>
       )}
-      <div className="relative z-10">
+      <div className="relative z-10 pb-28 md:pb-32">
         <Hero onStart={handleStart} heroConfig={config.hero} couple={config.couple} />
         <Counter startDate={config.startDate} />
         <Timeline timeline={config.timeline} />
